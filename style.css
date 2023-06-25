@@ -65,3 +65,30 @@ form input[type="submit"]:hover{
     margin-bottom: 20px;
 }
 
+.details{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.details > div{
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin: 10px;
+    flex: 1;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 45px;
+}
+
+@media(max-width: 768px){
+    form{
+        flex-direction: column;
+    }
+    form input[type="text"]{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    
+}
